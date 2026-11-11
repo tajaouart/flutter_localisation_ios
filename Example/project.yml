@@ -1,0 +1,48 @@
+name: LocalisationDemo
+options:
+  bundleIdPrefix: com.flutterlocalisation
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  FlutterLocalisation:
+    path: ..
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # Left empty: live updates stay off. Pass them to xcodebuild, or set them
+    # in a Secrets.xcconfig that is not committed.
+    FL_SECRET_KEY: ""
+    FL_PROJECT_ID: ""
+    FL_FLAVOR: Default
+targets:
+  LocalisationDemo:
+    type: application
+    platform: iOS
+    sources:
+      - LocalisationDemo
+    dependencies:
+      - package: FlutterLocalisation
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flutterlocalisation.demo
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_CFBundleDisplayName: Localisation
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: LocalisationDemo/Info.plist
+      properties:
+        FLSecretKey: $(FL_SECRET_KEY)
+        FLProjectId: $(FL_PROJECT_ID)
+        FLFlavor: $(FL_FLAVOR)
+        UILaunchScreen: {}
+        CFBundleDisplayName: Localisation
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]

@@ -1,0 +1,64 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "files %@ %lld" : {
+      "localizations" : {
+        "en" : { "variations" : { "plural" : {
+          "zero" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ has no files" } },
+          "one" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ has one file" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "%1$@ has %2$lld files" } } } } },
+        "ru" : { "variations" : { "plural" : {
+          "one" : { "stringUnit" : { "state" : "translated", "value" : "У %1$@ %2$lld файл" } },
+          "few" : { "stringUnit" : { "state" : "translated", "value" : "У %1$@ %2$lld файла" } },
+          "many" : { "stringUnit" : { "state" : "translated", "value" : "У %1$@ %2$lld файлов" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "У %1$@ %2$lld файла" } } } } }
+      }
+    },
+    "count first %lld %@" : {
+      "localizations" : {
+        "en" : { "variations" : { "plural" : {
+          "one" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld photo by %2$@" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "%1$lld photos by %2$@" } } } } }
+      }
+    },
+    "media %lld %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%#@photos@ and %#@videos@" },
+          "substitutions" : {
+            "photos" : { "argNum" : 1, "formatSpecifier" : "lld", "variations" : { "plural" : {
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%arg photo" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%arg photos" } } } } },
+            "videos" : { "argNum" : 2, "formatSpecifier" : "lld", "variations" : { "plural" : {
+              "zero" : { "stringUnit" : { "state" : "translated", "value" : "no videos" } },
+              "one" : { "stringUnit" : { "state" : "translated", "value" : "%arg video" } },
+              "other" : { "stringUnit" : { "state" : "translated", "value" : "%arg videos" } } } } }
+          } }
+      }
+    },
+    "tap" : {
+      "localizations" : {
+        "en" : { "variations" : { "device" : {
+          "mac" : { "stringUnit" : { "state" : "translated", "value" : "Click" } },
+          "iphone" : { "stringUnit" : { "state" : "translated", "value" : "Tap" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "Select" } } } } }
+      }
+    },
+    "distance %.1f" : {
+      "localizations" : {
+        "en" : { "variations" : { "plural" : {
+          "one" : { "stringUnit" : { "state" : "translated", "value" : "%.1f mile" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "%.1f miles" } } } } },
+        "fr" : { "variations" : { "plural" : {
+          "one" : { "stringUnit" : { "state" : "translated", "value" : "%.1f kilomètre" } },
+          "many" : { "stringUnit" : { "state" : "translated", "value" : "%.1f de kilomètres" } },
+          "other" : { "stringUnit" : { "state" : "translated", "value" : "%.1f kilomètres" } } } } }
+      }
+    },
+    "percent %lld%%" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld%% done" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
