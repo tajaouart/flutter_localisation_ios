@@ -12,6 +12,7 @@
 		275E00412DB45731666D63FE /* LocalisationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD3D1A1AC9E96FE0952F8E /* LocalisationDemoApp.swift */; };
 		A69F4B4732FBEE27377C4F0C /* FlutterLocalisation in Frameworks */ = {isa = PBXBuildFile; productRef = 6041171EF763FB282AF7BFEB /* FlutterLocalisation */; };
 		A71011172DB8DC04FD74B93D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D83A06114FF215B9EB288A0C /* Localizable.xcstrings */; };
+		B334D117A6F747D935213A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D1581FCAADB989C5B2EB52 /* Assets.xcassets */; };
 		C0686A19B0BEF7A1A20636B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A01858ED2AE9F1FC0EE2BAD /* HomeView.swift */; };
 		D1EF02B30140C9D344A63422 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 015FF7E01D9552DED1C5800F /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		42BCC4788FA5F499AEB30D24 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		9A01858ED2AE9F1FC0EE2BAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B57BA539AE671A0D612F1203 /* PluralCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralCategory.swift; sourceTree = "<group>"; };
+		D4D1581FCAADB989C5B2EB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83A06114FF215B9EB288A0C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 		CF0DCAA947E381AF56F1836C /* LocalisationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4D1581FCAADB989C5B2EB52 /* Assets.xcassets */,
 				9A01858ED2AE9F1FC0EE2BAD /* HomeView.swift */,
 				037796669FFBD11B97495335 /* Info.plist */,
 				015FF7E01D9552DED1C5800F /* InfoPlist.xcstrings */,
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B334D117A6F747D935213A5B /* Assets.xcassets in Resources */,
 				D1EF02B30140C9D344A63422 /* InfoPlist.xcstrings in Resources */,
 				A71011172DB8DC04FD74B93D /* Localizable.xcstrings in Resources */,
 			);
