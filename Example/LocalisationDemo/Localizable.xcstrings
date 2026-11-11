@@ -1,7 +1,8 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "brand.name" : {
+    "FlutterLocalisation" : {
+      "comment" : "Product name. iOS shows a key a language lacks as is, so a string that is never translated uses its text as the key.",
       "localizations" : {
         "en" : {
           "stringUnit" : {

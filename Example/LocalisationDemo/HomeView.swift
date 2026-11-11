@@ -37,7 +37,7 @@ struct HomeView: View {
                     StringRow(key: "greeting.simple", value: String(localized: "greeting.simple"))
                     StringRow(key: "greeting.hello %@", value: String(localized: "greeting.hello \(sampleName)"))
                     StringRow(key: "greeting.welcome %@", value: String(localized: "greeting.welcome \(sampleName)"))
-                    StringRow(key: "brand.name", value: String(localized: "brand.name"), note: "Not translated")
+                    StringRow(key: "FlutterLocalisation", value: String(localized: "FlutterLocalisation"), note: "Not translated")
                 }
 
                 SectionTitle("Plurals").padding(.top, 28)
@@ -62,7 +62,7 @@ struct HomeView: View {
 
     private var header: some View {
         HStack {
-            Text("brand.name").font(.headline)
+            Text("FlutterLocalisation").font(.headline)
             Spacer()
             Text(verbatim: "String Catalog").font(.footnote).foregroundStyle(Palette.muted)
         }
